@@ -1,0 +1,51 @@
+Package: SCCDdesign
+Title: Construction of Screening Designs for Mixed Level Continuous and
+        Categorical Factors
+Version: 0.1.0
+Authors@R: 
+    c(
+      person("Vyshna", "I C",
+        email = "vyshnaic@gmail.com",
+        role = c("aut", "cre")),
+      person("Cini", "Varghese",
+        email = "Cini2204@gmail.com",
+        role = c("aut", "ctb")),
+      person("Safeela", "Nasrin",
+        email = "nasrinkareem315@gmail.com",
+        role = "aut"),
+      person("Boyina", "Devi Priyanka",
+        email = "boyinadevipriyanka@gmail.com",
+        role = c("aut", "ctb")),
+      person("Mohd", "Harun",
+        email = "harun.agribhu@gmail.com",
+        role = c("aut", "ctb")),
+      person("Anindita", "Datta",
+        email = "aninditaiasri@gmail.com",
+        role = c("aut", "ctb"))
+    )
+Description: Provides functions for constructing screening designs for
+    experiments involving three-level continuous and two-level categorical
+    factors. The package implements three methods proposed by Jones, B., 
+    Lekivetz, R., Majumdar, D. and Nachtsheim, C. (2025)
+    <doi:10.1080/00401706.2024.2362149> for generating efficient
+    screening designs for even run sizes. It also includes functions for
+    constructing conference matrices using Paley Type I and Type II
+    constructions, as well as construction of pseudo conference matrices 
+    by coordinate exchange algorithm given by Jones, B. and Nachtsheim, C. J. (2011) 
+    <doi:10.1080/00224065.2011.11917841> which are used
+    in the development of these screening designs.
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 8.0.0
+Imports: pracma, AlgDesign
+NeedsCompilation: no
+Packaged: 2026-08-13 16:47:20 UTC; VYSHNA
+Author: Vyshna I C [aut, cre],
+  Cini Varghese [aut, ctb],
+  Safeela Nasrin [aut],
+  Boyina Devi Priyanka [aut, ctb],
+  Mohd Harun [aut, ctb],
+  Anindita Datta [aut, ctb]
+Maintainer: Vyshna I C <vyshnaic@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-09-03 12:20:22 UTC
