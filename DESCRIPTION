@@ -1,7 +1,7 @@
 Package: SCCDdesign
 Title: Construction of Screening Designs for Mixed Level Continuous and
         Categorical Factors
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
     c(
       person("Vyshna", "I C",
@@ -23,23 +23,27 @@ Authors@R:
         email = "aninditaiasri@gmail.com",
         role = c("aut", "ctb"))
     )
-Description: Provides functions for constructing screening designs for
-    experiments involving three-level continuous and two-level categorical
-    factors. The package implements three methods proposed by Jones, B., 
+Description: Constructs screening designs for experiments involving
+    continuous and categorical factors with multiple levels. The package
+    implements methods for constructing mixed-level screening designs,
+    involving factors with more than two levels. It also evaluates the 
+    statistical performance of screening designs throughdev power to identify 
+    active effects and Type I error rates. 
+    The package implements three methods proposed by Jones, B., 
     Lekivetz, R., Majumdar, D. and Nachtsheim, C. (2025)
     <doi:10.1080/00401706.2024.2362149> for generating efficient
-    screening designs for even run sizes. It also includes functions for
-    constructing conference matrices using Paley Type I and Type II
-    constructions, as well as construction of pseudo conference matrices 
-    by coordinate exchange algorithm given by Jones, B. and Nachtsheim, C. J. (2011) 
+    screening designs involving three-level continuous and two-level
+    categorical factors for even run sizes.
+    It also includes Paley Type I and Type II constructions for conference matrices 
+    and pseudo conference matrices obtained using the coordinate exchange algorithm by Jones, B. and Nachtsheim, C. J. (2011) 
     <doi:10.1080/00224065.2011.11917841> which are used
     in the development of these screening designs.
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 8.0.0
-Imports: pracma, AlgDesign
+Imports: pracma, AlgDesign, leaps, stats
 NeedsCompilation: no
-Packaged: 2026-08-13 16:47:20 UTC; VYSHNA
+Packaged: 2026-09-20 10:20:51 UTC; VYSHNA
 Author: Vyshna I C [aut, cre],
   Cini Varghese [aut, ctb],
   Safeela Nasrin [aut],
@@ -48,4 +52,4 @@ Author: Vyshna I C [aut, cre],
   Anindita Datta [aut, ctb]
 Maintainer: Vyshna I C <vyshnaic@gmail.com>
 Repository: CRAN
-Date/Publication: 2026-09-03 12:20:22 UTC
+Date/Publication: 2026-09-21 10:00:41 UTC
